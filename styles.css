@@ -1,0 +1,169 @@
+body {
+  background: linear-gradient(
+    255deg,
+    rgba(197, 164, 228, 1) 32%,
+    rgba(177, 227, 235, 1) 64%,
+    rgba(117, 118, 215, 1) 98%
+  );
+}
+
+header {
+  font-family: "Oswald", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+main {
+  width: 40rem;
+  height: 75rem;
+  margin: 2rem auto;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: linear-gradient(
+    80deg,
+    rgba(220, 160, 245, 1) 50%,
+    rgba(147, 176, 252, 1) 100%
+  );
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  margin: 2rem 3rem;
+}
+
+div {
+  margin: 3rem;
+}
+
+label {
+  margin-top: 2rem;
+
+  font-size: 1.8rem;
+  display: block;
+}
+
+input,
+select {
+  margin-bottom: 1.85rem;
+  width: 100%;
+  height: 1.5rem;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  border: 1.5px solid rgb(178, 166, 219);
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgb(219, 199, 245);
+}
+
+textarea {
+  border: 1.5px solid rgb(178, 166, 219);
+  font-family: "Roboto", sans-serif;
+  resize: vertical;
+  font-size: 1rem;
+  width: 100%;
+  height: 8.5rem;
+  display: block;
+  margin-bottom: 1.85rem;
+}
+
+select {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  height: 1.75rem;
+}
+
+.inline-radio {
+  display: flex;
+}
+
+.inline-radio input {
+  width: auto;
+}
+
+.inline-radio label {
+  margin: 0;
+}
+
+.radio h2 {
+  margin-left: 0;
+}
+
+.check-box {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.check-box input {
+  width: auto;
+}
+
+.check-box label {
+  margin: 0;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  margin-left: 0.25rem;
+  font-size: 1.45rem;
+  border-radius: 0.55rem;
+  background-color: rgb(178, 122, 252);
+  border: 1.5px solid rgb(178, 166, 219);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.button {
+  margin-top: 4rem;
+  margin-left: 22rem;
+}
+
+footer {
+  background: linear-gradient(
+    40deg,
+    rgba(107, 161, 231, 1) 27%,
+    rgba(98, 100, 226, 1) 55%,
+    rgba(164, 102, 214, 1) 77%
+  );
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  width: 2rem;
+  height: 2rem;
+  margin: 8px 15px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 90%;
+  }
+  button {
+    display: inline-block;
+    margin: 0.1rem;
+  }
+
+  section {
+    display: block;
+  }
+}
